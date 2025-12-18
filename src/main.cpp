@@ -4,7 +4,6 @@
 #include "MAX30105.h"
 #include "heartRate.h"
 #include <ArduinoJson.h>
-
 // ========== CONFIGURATION WiFi et MQTT ==========
 const char* ssid = "Redmi";
 const char* password = "Mmmm123@";
