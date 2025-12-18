@@ -14,6 +14,7 @@ const int mqtt_port = 1883;
 const char* topic_health = "health/monitor/data";
 const char* topic_buzzer = "health/monitor/buzzer";
 
+
 // Client WiFi et MQTT
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
